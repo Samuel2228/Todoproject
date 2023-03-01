@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 540px;
+    height: auto;
+    min-height: 80vh;
+    border-radius: 50px;
+    box-shadow: 6px 10px 18px aqua;
+
+}
+form input {
+    width: 80%;
+    padding: 8px 15px;
+    margin: 20px 0;
+    border-radius: 50px;
+    
+}
+
+.todo-body div {
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text]{
+    background-color: aqua;
+
+}
+
+h1{
+    margin: 20px 10px;
+    text-align: center;
+    color: aqua;
+    
+}
