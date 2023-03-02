@@ -12,13 +12,15 @@
     min-height: 80vh;
     border-radius: 50px;
     box-shadow: 6px 10px 18px aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 
 }
 form input {
     width: 80%;
     padding: 8px 15px;
     margin: 20px 0;
-    border-radius: 50px;
+    border-radius: 10px;
     
 }
 
@@ -27,7 +29,6 @@ form input {
     display: flex;
     justify-content: center;
 }
-
 input[type=text]{
     background-color: aqua;
 
@@ -39,3 +40,124 @@ h1{
     color: aqua;
     
 }
+
+
+.rebel{
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.count{
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+}
+
+.datetime-local{
+    color: aqua;
+}
+
+input[type=datetime-local]{
+    background-color: aqua;
+}
+
+
+input[type=button]{
+    background-color: aqua;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.dan{
+    display: grid;
+    justify-content: center;
+}
+
+/* div.[baddest]{
+     box-sizing: content-box;
+     padding: 20px;
+     color: crimson;
+     height: 30px;
+} */
+
+input[type=ii]{
+    background-color: aqua;
+    height: 100px;
+    columns: 40px;
+    width: 50vh;
+    
+}
+
+/* button{
+    height: 100px;
+    color: black;
+    background-color: black;
+} */
+
+.container{
+    background-color: gray;
+}
+
+.btn{
+    /* align-items: ; */
+    border: 1px solid gray;
+    height: 20vh;
+    background-color: white;
+    margin: 30px;
+    width: 598%;
+    max-width: 440px;
+    display: flex;
+    align-items: space-evenly;
+}
+
+.delete {
+    margin: 30px auto 0;
+    width: 80%;
+}
+
+.delete p {
+    text-align: left;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.delete-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    border: 1px solid aqua;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+
+
+    /* margin: top, right, bootom. left -trbl */
+
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red; */
+
+}
+
+.delete-box button {
+    background-color: red;
+    padding: 10px;
+    width: 70px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
